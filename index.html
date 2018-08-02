@@ -17,8 +17,179 @@
 </head>
 
 <body>
-    <a id='a'>TEST for me</a>
 
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+
+
+
+
+            <a class="navbar-brand" id="textlogo" href="#">
+                <img src="img/logo.png" class="img-fluid"> Detailed Menu</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 mx-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+
+
+                <button class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+                    <span class="fa fa-sign-in"></span> Login
+                </button>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- LOGIN MODAL-->
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-sm" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row align-12">
+                            <div class="form-group col-12">
+                                <label class="sr-only" for="loginInputEmail">Email address</label>
+                                <input type="email" class="form-control form-control-sm mr-1" id="loginInputEmail" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-12">
+                                <label class="sr-only" for="loginInputPassword">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="loginInputPassword" placeholder="Password">
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <a class="btn" id="signupButton">New around here? Sign up</a>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary btn-sm">Sign in</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SIGN UP MODAL-->
+    <div id="signupModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-sm" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Sign Up</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row align-12">
+                            <div class="form-group col-12">
+                                <label class="sr-only" for="signupInputFirstName">First Name</label>
+                                <input type="text" class="form-control form-control-sm mr-1" id="signupInputFirstName" placeholder="First Name">
+                            </div>
+                            <div class="form-group col-12">
+                                <label class="sr-only" for="signupInputLastName">Last Name</label>
+                                <input type="text" class="form-control form-control-sm mr-1" id="signupInputLastName" placeholder="Last Name">
+                            </div>
+                            <div class="form-group col-12">
+                                <label class="sr-only" for="signupInputEmail">Email address</label>
+                                <input type="email" class="form-control form-control-sm mr-1" id="signupInputEmail" placeholder="Enter Email">
+                            </div>
+                            <div class="form-group col-12">
+                                <label class="sr-only" for="signupInputPassword">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="signupInputPassword" placeholder="Password">
+                            </div>
+                            <div class="form-group col-12">
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary active">
+                                        <input type="radio" name="options" id="optioncustomer" autocomplete="off" checked> Customer
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" name="options" id="optionbusiness" autocomplete="off"> Restaurant
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary btn-sm">Create Account</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ADVANCED SEARCH -->
+    <div class="jumbotron">
+        <div class="container">
+            <h3 class="align-12">Advanced Search</h1>
+                <hr class="my-4">
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 text-dark align-self-center">
+                        <div class="text-center">
+                    <p>© Copyright 2018
+                        <b>Detailed Menu</b>
+                    </p>
+                </div>
+                </div>
+
+                <div class="col-12 col-md-6 text-dark align-self-center">
+                        <div class="text-center">
+                        <img src="img/logo.png" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/">
+                            <i class="fa fa-facebook fa-lg"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                            <i class="fa fa-twitter fa-lg"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/">
+                            <i class="fa fa-youtube fa-lg"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/">
+                            <i class="fa fa-instagram fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
 
     <!-- JS -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -26,4 +197,5 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>

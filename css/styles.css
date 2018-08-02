@@ -1,0 +1,28 @@
+.navbar-dark {
+  background-color: #302519; }
+
+.jumbotron {
+  background: #F7FAC5; }
+
+.navbar-brand img {
+  max-height: 75px;
+  max-width: 75px; }
+
+.footer img {
+  max-height: 150px;
+  max-width: 150px; }
+
+.text-dark p {
+  color: #302519; }
+
+.footer {
+  background: #EAEEA4; }
+
+#textlogo {
+  color: #dddd21fd; }
+
+.align-12 {
+  text-align: center; }
+
+#signupButton {
+  color: #5383ecfd; }

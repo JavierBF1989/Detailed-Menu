@@ -1,0 +1,52 @@
+$fontcolor-yellow: #dddd21fd;
+$fontcolor-blue: #5383ecfd;
+$fontcolor-dark: #302519;
+$background-1: #302519;
+$background-2: #F7FAC5;
+$background-3: #E1EF42;
+$background-4: #EAEEA4;
+$background-5: #F5F3E5;
+
+.navbar-dark {
+    background-color: $background-1;
+}
+
+.jumbotron {
+    background: $background-2;
+}
+
+.navbar-brand {
+    img {
+        max-height: 75px;
+        max-width: 75px;
+    }
+}
+
+.footer {
+    img {
+        max-height: 150px;
+        max-width: 150px;
+    }
+}
+
+.text-dark {
+    p {
+    color: $fontcolor-dark;
+    }
+}
+
+.footer {
+    background: $background-4;
+}
+
+#textlogo {
+    color: $fontcolor-yellow;
+}
+
+.align-12 {
+    text-align: center;
+}
+
+#signupButton {
+    color: $fontcolor-blue;
+}
