@@ -2,15 +2,22 @@
   background-color: #302519; }
 
 .jumbotron {
-  background: #F7FAC5; }
+  background: #F7FAC5;
+  padding: 10px; }
 
 .navbar-brand img {
-  max-height: 75px;
-  max-width: 75px; }
+  max-height: 30px;
+  max-width: 30px; }
+
+.input-group-prepend span, .input-group-prepend label {
+  background-color: #F7FAC5; }
+
+.input-group-append span, .input-group-append label {
+  background-color: #F7FAC5; }
 
 .footer img {
-  max-height: 150px;
-  max-width: 150px; }
+  max-height: 140px;
+  max-width: 140px; }
 
 .text-dark p {
   color: #302519; }
@@ -20,6 +27,12 @@
 
 #textlogo {
   color: #dddd21fd; }
+
+#inputbudget {
+  width: 80px; }
+
+.custom-control label {
+  color: #302519; }
 
 .align-12 {
   text-align: center; }

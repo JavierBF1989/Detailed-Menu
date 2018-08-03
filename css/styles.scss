@@ -13,19 +13,31 @@ $background-5: #F5F3E5;
 
 .jumbotron {
     background: $background-2;
+    padding: 10px;
 }
 
 .navbar-brand {
     img {
-        max-height: 75px;
-        max-width: 75px;
+        max-height: 30px;
+        max-width: 30px;
+    }
+}
+
+.input-group-prepend {
+    span,label {
+        background-color: $background-2;
+    }
+}
+.input-group-append {
+    span,label {
+        background-color: $background-2;
     }
 }
 
 .footer {
     img {
-        max-height: 150px;
-        max-width: 150px;
+        max-height: 140px;
+        max-width: 140px;
     }
 }
 
@@ -41,6 +53,16 @@ $background-5: #F5F3E5;
 
 #textlogo {
     color: $fontcolor-yellow;
+}
+
+#inputbudget {
+    width: 80px;
+}
+
+.custom-control {
+    label {
+        color: $fontcolor-dark;
+    }
 }
 
 .align-12 {
