@@ -1,11 +1,11 @@
 $fontcolor-yellow: #dddd21fd;
 $fontcolor-blue: #5383ecfd;
-$fontcolor-dark: #302519;
-$background-1: #302519;
-$background-2: #F7FAC5;
-$background-3: #E1EF42;
-$background-4: #EAEEA4;
-$background-5: #F5F3E5;
+$fontcolor-dark: #29333b;
+$background-1: #29333b;
+$background-2: #A1B5D8;
+$background-3: #FFFCF7;
+$background-4: #E4F0D0;
+$background-5: #C2D8B9;
 
 .navbar-dark {
     background-color: $background-1;
@@ -35,6 +35,11 @@ $background-5: #F5F3E5;
 }
 
 .footer {
+    background: $background-5;
+    padding: 10px;
+    p {
+        color: $fontcolor-dark;
+    }
     img {
         max-height: 140px;
         max-width: 140px;
@@ -42,14 +47,11 @@ $background-5: #F5F3E5;
 }
 
 .text-dark {
-    p {
+    p, h1, h2, h3, h4, h5 {
     color: $fontcolor-dark;
     }
 }
 
-.footer {
-    background: $background-4;
-}
 
 #textlogo {
     color: $fontcolor-yellow;
@@ -71,4 +73,41 @@ $background-5: #F5F3E5;
 
 #signupButton {
     color: $fontcolor-blue;
+}
+
+.principal-container {
+    padding: 0px;
+    background: $background-3;
+}
+
+.media {
+    img {
+        height: 200px;
+        width: 250px;
+        border: 0px;
+    }
+    #carouselExampleControls {
+        height: 200px;
+        width: 250px;
+        margin: 10px;
+    }
+}
+
+.vertical-line {
+    border-left: 2px solid;
+    height: 150px;
+    border-color: #A1B5D8;
+}
+
+.marginbottom35 {
+    margin-bottom: 35px;
+}
+.margintop5 {
+    margin-top: 5px;
+}
+
+.pagination {
+    a {
+        background: $background-3;
+    }
 }

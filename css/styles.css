@@ -1,8 +1,8 @@
 .navbar-dark {
-  background-color: #302519; }
+  background-color: #29333b; }
 
 .jumbotron {
-  background: #F7FAC5;
+  background: #A1B5D8;
   padding: 10px; }
 
 .navbar-brand img {
@@ -10,20 +10,22 @@
   max-width: 30px; }
 
 .input-group-prepend span, .input-group-prepend label {
-  background-color: #F7FAC5; }
+  background-color: #A1B5D8; }
 
 .input-group-append span, .input-group-append label {
-  background-color: #F7FAC5; }
-
-.footer img {
-  max-height: 140px;
-  max-width: 140px; }
-
-.text-dark p {
-  color: #302519; }
+  background-color: #A1B5D8; }
 
 .footer {
-  background: #EAEEA4; }
+  background: #C2D8B9;
+  padding: 10px; }
+  .footer p {
+    color: #29333b; }
+  .footer img {
+    max-height: 140px;
+    max-width: 140px; }
+
+.text-dark p, .text-dark h1, .text-dark h2, .text-dark h3, .text-dark h4, .text-dark h5 {
+  color: #29333b; }
 
 #textlogo {
   color: #dddd21fd; }
@@ -32,10 +34,38 @@
   width: 80px; }
 
 .custom-control label {
-  color: #302519; }
+  color: #29333b; }
 
 .align-12 {
   text-align: center; }
 
 #signupButton {
   color: #5383ecfd; }
+
+.principal-container {
+  padding: 0px;
+  background: #FFFCF7; }
+
+.media img {
+  height: 200px;
+  width: 250px;
+  border: 0px; }
+
+.media #carouselExampleControls {
+  height: 200px;
+  width: 250px;
+  margin: 10px; }
+
+.vertical-line {
+  border-left: 2px solid;
+  height: 150px;
+  border-color: #A1B5D8; }
+
+.marginbottom35 {
+  margin-bottom: 35px; }
+
+.margintop5 {
+  margin-top: 5px; }
+
+.pagination a {
+  background: #FFFCF7; }
